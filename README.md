@@ -211,7 +211,7 @@ state = {
 ```
 ---
 
-8. MVP Build Plan (Step-by-Step)
+## 8. MVP Build Plan (Step-by-Step)
 Phase 1 – Foundations
 
 ### A) Setup FastAPI
@@ -242,7 +242,7 @@ Phase 1 – Foundations
 
  - Track workout (gym + run)
 
- Query last workout stats
+ - Query last workout stats
 
  ### E) Phase 5 – Validation & Safety
 
@@ -252,14 +252,16 @@ Phase 1 – Foundations
 
  - Error recovery
 
-9. MVP Success Criteria
+---
+
+## 9. MVP Success Criteria
 
 ✅ You can log workouts fully via WhatsApp
 ✅ You can ask past performance questions
 ✅ Sheets update correctly
 ✅ No manual data entry needed
 
-10. What Comes After MVP (Not Now)
+## 10. What Comes After MVP (Not Now)
 
 LLM-powered summaries
 
@@ -271,7 +273,9 @@ Multi-user support
 
 Calendar-based reminders
 
-11. Next Step (Recommended)
+---
+
+## 11. Next Step (Recommended)
 
 Next action:
 
