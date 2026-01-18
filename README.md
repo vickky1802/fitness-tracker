@@ -209,47 +209,48 @@ state = {
   }
 }
 ```
+---
 
 8. MVP Build Plan (Step-by-Step)
 Phase 1 – Foundations
 
- Setup FastAPI
+### A) Setup FastAPI
 
- Configure Twilio WhatsApp webhook
+ - Configure Twilio WhatsApp webhook
 
- Echo message back (sanity test)
+ - Echo message back (sanity test)
 
-Phase 2 – Google Sheets Integration
+### B) Phase 2 – Google Sheets Integration
 
- Authenticate via service account
+ - Authenticate via service account
 
- Read weekly plan
+ -  Read weekly plan
 
- Append workout logs
+ - Append workout logs
 
-Phase 3 – Intent Engine (Rule-Based)
+ ### C) Phase 3 – Intent Engine (Rule-Based)
 
- Keyword matching
+ - Keyword matching
 
- Date parsing (last week, today)
+ - Date parsing (last week, today)
 
- Exercise name normalization
+ - Exercise name normalization
 
-Phase 4 – Core Flows
+ ### D) Phase 4 – Core Flows
 
- Weekly status flow
+ - Weekly status flow
 
- Track workout (gym + run)
+ - Track workout (gym + run)
 
  Query last workout stats
 
-Phase 5 – Validation & Safety
+ ### E) Phase 5 – Validation & Safety
 
- Confirm before write
+ - Confirm before write
 
- Handle partial inputs
+ - Handle partial inputs
 
- Error recovery
+ - Error recovery
 
 9. MVP Success Criteria
 
